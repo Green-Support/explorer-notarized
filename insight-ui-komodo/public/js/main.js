@@ -1,6 +1,6 @@
 // Source: public/src/js/app.js
 var testnet = false;
-var netSymbol = testnet ? 'NATURE' : 'NATURE';
+var netSymbol = testnet ? '666COIN' : '666COIN';
 
 var defaultLanguage = localStorage.getItem('insight-language') || 'en';
 var defaultCurrency = localStorage.getItem('insight-currency') || netSymbol;
