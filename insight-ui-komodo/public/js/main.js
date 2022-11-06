@@ -1,6 +1,6 @@
 // Source: public/src/js/app.js
 var testnet = false;
-var netSymbol = testnet ? '666COIN' : '666COIN';
+var netSymbol = testnet ? 'SIXCOIN' : 'SIXCOIN';
 
 var defaultLanguage = localStorage.getItem('insight-language') || 'en';
 var defaultCurrency = localStorage.getItem('insight-currency') || netSymbol;
@@ -1513,7 +1513,7 @@ angular.module('insight').config(function($routeProvider) {
   $routeProvider.
     when('/block/:blockHash', {
       templateUrl: 'views/block.html',
-      title: 'Nature Block '
+      title: 'Sixcoin Block '
     }).
     when('/block-index/:blockHeight', {
       controller: 'BlocksController',
@@ -1525,7 +1525,7 @@ angular.module('insight').config(function($routeProvider) {
     }).
     when('/tx/:txId/:v_type?/:v_index?', {
       templateUrl: 'views/transaction.html',
-      title: 'Nature Transaction '
+      title: 'Sixcoin Transaction '
     }).
     when('/', {
       templateUrl: 'views/index.html',
@@ -1533,15 +1533,15 @@ angular.module('insight').config(function($routeProvider) {
     }).
     when('/blocks', {
       templateUrl: 'views/block_list.html',
-      title: 'Nature Blocks solved Today'
+      title: 'Sixcoin Blocks solved Today'
     }).
     when('/blocks-date/:blockDate/:startTimestamp?', {
       templateUrl: 'views/block_list.html',
-      title: 'Nature Blocks solved '
+      title: 'Sixcoin Blocks solved '
     }).
     when('/address/:addrStr', {
       templateUrl: 'views/address.html',
-      title: 'Nature Address '
+      title: 'Sixcoin Address '
     }).
     when('/charts/:chartType?', {
       templateUrl: 'views/charts.html',
