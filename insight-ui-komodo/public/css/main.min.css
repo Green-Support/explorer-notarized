@@ -321,7 +321,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: rgb(5, 212, 15);
-    background-color: rgb(0, 0, 0)
+    background-color: rgb(90 3 37)
 }
 
 input,
@@ -334,7 +334,7 @@ textarea {
 }
 
 a {
-    color: #0e87ef;
+    color: #06ab9b;
     text-decoration: none
 }
 
@@ -1703,7 +1703,7 @@ th {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 1px solid #ffd702
+    border-top: 1px solid #ff02d2
 }
 
 .table>thead>tr>th {
@@ -1757,7 +1757,7 @@ th {
 
 .table-striped>tbody>tr:nth-child(odd)>td,
 .table-striped>tbody>tr:nth-child(odd)>th {
-    background-color: #0e4003
+    background-color: #3a2003
 }
 
 .table-hover>tbody>tr:hover>td,
@@ -4718,7 +4718,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 
 .navbar-default {
     background-color: #f8f8f8;
-    border-color: #e7e7e7
+    border-color: #e7f15e
 }
 
 .navbar-default .navbar-brand {
@@ -7104,7 +7104,7 @@ button.close {
 
 html,
 body {
-    color: #17eb08;
+    color: #01ed1e;
     font-family: Ubuntu, sans-serif;
     height: 100%
 }
@@ -7278,7 +7278,7 @@ h6,
 }
 
 .navbar-default {
-    background-color: #052616;
+    background-color: #221901;
     margin: 2;
     border: 2
 }
@@ -8069,7 +8069,7 @@ a.v_highlight_more {
         top: 50px
     }
     body {
-        font-size: 11px
+        font-size: 12px
     }
     h1 {
         font-size: 24px
